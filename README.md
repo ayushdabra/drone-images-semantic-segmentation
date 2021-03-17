@@ -218,7 +218,7 @@ Predictions on Validation Set Images:
 <p align="center"><img width = "auto" height= "auto" src="./predictions/prediction_69.png" /></p>
 <p align="center"><img width = "auto" height= "auto" src="./predictions/prediction_73.png" /></p>
 
-All predictions on the validation set are available in the <a href="https://github.com/ayushdabra/drone-images-semantic-segmentation/tree/main/predictions">`predictions`</a>directory.
+All predictions on the validation set are available in the <a href="https://github.com/ayushdabra/drone-images-semantic-segmentation/tree/main/predictions">`predictions`</a> directory.
 
 ## Activations (Outputs) Visualization
 
@@ -229,7 +229,7 @@ Activations/Outputs of some layers of the model-
 | <p align="center"><img width = "auto" height= "auto" src="./activations/edited/8_conv2d.png" />conv2d</p>                | <p align="center"><img width = "auto" height= "auto" src="./activations/edited/10_conv2d_transpose_1.png" />conv2d_transpose_1</p> | <p align="center"><img width = "auto" height= "auto" src="./activations/edited/13_conv2d_3.png" />conv2d_3</p>                | <p align="center"><img width = "auto" height= "auto" src="./activations/edited/14_conv2d_transpose_2.png" />conv2d_transpose_2</p> |
 | <p align="center"><img width = "auto" height= "auto" src="./activations/edited/15_concatenate_2.png" />concatenate_2</p> | <p align="center"><img width = "auto" height= "auto" src="./activations/edited/17_conv2d_5.png" />conv2d_5</p>                     | <p align="center"><img width = "auto" height= "auto" src="./activations/edited/21_conv2d_7.png" />conv2d_7</p>                | <p align="center"><img width = "auto" height= "auto" src="./activations/edited/22_conv2d_8.png" />conv2d_8</p>                     |
 
-Some more activation maps are available in the <a href="https://github.com/ayushdabra/drone-images-semantic-segmentation/tree/main/activations">`activations`</a>directory.
+Some more activation maps are available in the <a href="https://github.com/ayushdabra/drone-images-semantic-segmentation/tree/main/activations">`activations`</a> directory.
 
 ## References
 
