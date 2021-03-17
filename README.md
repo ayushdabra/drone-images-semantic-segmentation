@@ -175,12 +175,12 @@ In the original paper, the UNet is described as follows:
 
 <p align="center"><i>U-Net architecture (example for 32x32 pixels in the lowest resolution). Each blue box corresponds to a multi-channel feature map. The number of channels is denoted on top of the box. The x-y-size is provided at the lower left edge of the box. White boxes represent copied feature maps. The arrows denote the different operations.</i></p>
 
-#### Custom UNet-VGG16 Architecture
+#### Custom VGG16-UNet Architecture
 
 - VGG16 model pre-trained on the ImageNet dataset has been used as an Encoder network.
 - A Decoder network has been extended from the last layer of the pre-trained model, and it is concatenated to the consecutive convolution blocks.
 
-A detailed layout of the model is available [here](./vgg16_unet_plot.png).
+A detailed layout of the model is available [here]("https://github.com/ayushdabra/drone-images-semantic-segmentation/blob/main/vgg16_unet_plot.png").
 
 ## Hyper-Parameters
 
@@ -201,7 +201,7 @@ A detailed layout of the model is available [here](./vgg16_unet_plot.png).
 
 <br><p align="center"><img width = "auto" height= "auto" src="./model_metrics_plot.png" /></p>
 
-The [`model_training_csv.log`]("https://github.com/ayushdabra/drone-images-semantic-segmentation/blob/main/model_training_csv.log") file contain epoch wise training details of the model.
+The <a href="https://github.com/ayushdabra/drone-images-semantic-segmentation/blob/main/model_training_csv.log">`model_training_csv.log`</a> file contain epoch wise training details of the model.
 
 ### Visual Results
 
@@ -218,7 +218,7 @@ Predictions on Validation Set Images:
 <p align="center"><img width = "auto" height= "auto" src="./predictions/prediction_69.png" /></p>
 <p align="center"><img width = "auto" height= "auto" src="./predictions/prediction_73.png" /></p>
 
-All predictions on the validation set are available in the [`predictions`]("https://github.com/ayushdabra/drone-images-semantic-segmentation/tree/main/predictions") directory.
+All predictions on the validation set are available in the <a href="https://github.com/ayushdabra/drone-images-semantic-segmentation/tree/main/predictions">`predictions`</a>directory.
 
 ## Activations (Outputs) Visualization
 
@@ -229,7 +229,7 @@ Activations/Outputs of some layers of the model-
 | <p align="center"><img width = "auto" height= "auto" src="./activations/edited/8_conv2d.png" />conv2d</p>                | <p align="center"><img width = "auto" height= "auto" src="./activations/edited/10_conv2d_transpose_1.png" />conv2d_transpose_1</p> | <p align="center"><img width = "auto" height= "auto" src="./activations/edited/13_conv2d_3.png" />conv2d_3</p>                | <p align="center"><img width = "auto" height= "auto" src="./activations/edited/14_conv2d_transpose_2.png" />conv2d_transpose_2</p> |
 | <p align="center"><img width = "auto" height= "auto" src="./activations/edited/15_concatenate_2.png" />concatenate_2</p> | <p align="center"><img width = "auto" height= "auto" src="./activations/edited/17_conv2d_5.png" />conv2d_5</p>                     | <p align="center"><img width = "auto" height= "auto" src="./activations/edited/21_conv2d_7.png" />conv2d_7</p>                | <p align="center"><img width = "auto" height= "auto" src="./activations/edited/22_conv2d_8.png" />conv2d_8</p>                     |
 
-Some more activation maps are available in the [`activations`]("https://github.com/ayushdabra/drone-images-semantic-segmentation/tree/main/activations) directory.
+Some more activation maps are available in the <a href="https://github.com/ayushdabra/drone-images-semantic-segmentation/tree/main/activations">`activations`</a>directory.
 
 ## References
 
