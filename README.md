@@ -2,17 +2,20 @@
 
 ## Abstract
 
-Semantic segmentation is the task of clustering parts of an image together which belong to the same object class. It is a form of pixel-level prediction because each pixel in an image is classified according to a category. In this project, I have performed semantic segmentation on [Semantic Drone Dataset](http://dronedataset.icg.tugraz.at/) by using transfer learning on a VGG-16 backbone (trained on ImageNet) based UNet CNN model. In order to artificially increase the amount of data and avoid overfitting, I preferred using data augmentation on the training set. The model performed well, and achieved ~87% dice coefficient on the validation set.
+<p align="justify">
+Semantic segmentation is the task of clustering parts of an image together which belong to the same object class. It is a form of pixel-level prediction because each pixel in an image is classified according to a category. In this project, I have performed semantic segmentation on <a href="http://dronedataset.icg.tugraz.at/">Semantic Drone Dataset</a> by using transfer learning on a VGG-16 backbone (trained on ImageNet) based UNet CNN model. In order to artificially increase the amount of data and avoid overfitting, I preferred using data augmentation on the training set. The model performed well, and achieved ~87% dice coefficient on the validation set.</p>
 
 ## What is Semantic Segmentation?
 
-Semantic segmentation is the task of classifying each and very pixel in an image into a class as shown in the image below. Here we can see that all persons are red, the road is purple, the vehicles are blue, street signs are yellow etc.
+<p align="justify">
+Semantic segmentation is the task of classifying each and very pixel in an image into a class as shown in the image below. Here we can see that all persons are red, the road is purple, the vehicles are blue, street signs are yellow etc.</p>
 
 <p align="center">
 <img src="https://miro.medium.com/max/750/1*RZnBSB3QpkIwFUTRFaWDYg.gif" />
 </p>
 
-Semantic segmentation is different from instance segmentation which is that different objects of the same class will have different labels as in person1, person2 and hence different colours.
+<p align="justify">
+Semantic segmentation is different from instance segmentation which is that different objects of the same class will have different labels as in person1, person2 and hence different colours.</p>
 
 <p align="center">
 <img src="https://s3-ap-south-1.amazonaws.com/av-blog-media/wp-content/uploads/2019/03/Screenshot-from-2019-03-28-12-08-09.png" />
@@ -22,13 +25,13 @@ Semantic segmentation is different from instance segmentation which is that diff
 
 1.  **Medical Images**
 
-    Automated segmentation of body scans can help doctors to perform diagnostic tests. For example, models can be trained to segment tumor.
+    <p align="justify">Automated segmentation of body scans can help doctors to perform diagnostic tests. For example, models can be trained to segment tumor.</p>
 
     <p align="center"> <img src="https://research.nvidia.com/sites/default/files/publications/1111.png" /> </p>
 
 2.  **Autonomous Vehicles**
 
-    Autonomous vehicles such as self-driving cars and drones can benefit from automated segmentation. For example, self-driving cars can detect drivable regions.
+    <p align="justify">Autonomous vehicles such as self-driving cars and drones can benefit from automated segmentation. For example, self-driving cars can detect drivable regions.</p>
 
     <p align="center"> 
     <img  width="800" height="430" src="https://divamgupta.com/assets/images/posts/imgseg/image10.png?style=centerme" /> 
@@ -36,7 +39,7 @@ Semantic segmentation is different from instance segmentation which is that diff
 
 3.  **Satellite Image Analysis**
 
-    Aerial images can be used to segment different types of land. Automated land mapping can also be done.
+    <p align="justify">Aerial images can be used to segment different types of land. Automated land mapping can also be done.</p>
 
     <p align="center"> 
     <img  width="800" height="400" src="https://www.spiedigitallibrary.org/ContentImages/Journals/JARSC4/12/4/042804/FigureImages/JARS_12_4_042804_f003.png" /> 
@@ -44,7 +47,7 @@ Semantic segmentation is different from instance segmentation which is that diff
 
 ## Semantic Drone Dataset
 
-The [Semantic Drone Dataset](http://dronedataset.icg.tugraz.at/) focuses on semantic understanding of urban scenes for increasing the safety of autonomous drone flight and landing procedures. The imagery depicts more than 20 houses from nadir (bird's eye) view acquired at an altitude of 5 to 30 meters above ground. A high resolution camera was used to acquire images at a size of 6000x4000px (24Mpx). The training set contains 400 publicly available images and the test set is made up of 200 private images.
+<p align="justify">The <a href="http://dronedataset.icg.tugraz.at/">Semantic Drone Dataset</a> focuses on semantic understanding of urban scenes for increasing the safety of autonomous drone flight and landing procedures. The imagery depicts more than 20 houses from nadir (bird's eye) view acquired at an altitude of 5 to 30 meters above ground. A high resolution camera was used to acquire images at a size of 6000x4000px (24Mpx). The training set contains 400 publicly available images and the test set is made up of 200 private images.</p>
 
 <p align="center">
   <img width="674" height="475" src="https://www.tugraz.at/fileadmin/_migrated/pics/fyler3.png" />
@@ -56,7 +59,7 @@ The [Semantic Drone Dataset](http://dronedataset.icg.tugraz.at/) focuses on sema
 
 The images are labeled densely using polygons and contain the following 24 classes:
 
-| Name        | R   | G   | B   | Color                                                                                           |
+<!-- | Name        | R   | G   | B   | Color                                                                                           |
 | ----------- | --- | --- | --- | ----------------------------------------------------------------------------------------------- |
 | unlabeled   | 0   | 0   | 0   | <svg width="30" height="20"><rect width="30" height="20" style="fill:rgb(0,0,0)" /></svg>       |
 | paved-area  | 128 | 64  | 128 | <svg width="30" height="20"><rect width="30" height="20" style="fill:rgb(128,64,128)" /></svg>  |
@@ -81,7 +84,33 @@ The images are labeled densely using polygons and contain the following 24 class
 | bald-tree   | 190 | 250 | 190 | <svg width="30" height="20"><rect width="30" height="20" style="fill:rgb(190,250,190)" /></svg> |
 | ar-marker   | 112 | 150 | 146 | <svg width="30" height="20"><rect width="30" height="20" style="fill:rgb(112,150,146)" /></svg> |
 | obstacle    | 2   | 135 | 115 | <svg width="30" height="20"><rect width="30" height="20" style="fill:rgb(2,135,115)" /></svg>   |
-| conflicting | 255 | 0   | 0   | <svg width="30" height="20"><rect width="30" height="20" style="fill:rgb(255,0,0)" /></svg>     |
+| conflicting | 255 | 0   | 0   | <svg width="30" height="20"><rect width="30" height="20" style="fill:rgb(255,0,0)" /></svg>     | -->
+
+| Name        | R   | G   | B   | Color                                                                                  |
+| ----------- | --- | --- | --- | -------------------------------------------------------------------------------------- |
+| unlabeled   | 0   | 0   | 0   | <p align="center"><img width = "30" height= "20" src="./colors/unlabeled.png" /></p>   |
+| paved-area  | 128 | 64  | 128 | <p align="center"><img width = "30" height= "20" src="./colors/paved-area.png" /></p>  |
+| dirt        | 130 | 76  | 0   | <p align="center"><img width = "30" height= "20" src="./colors/dirt.png" /></p>        |
+| grass       | 0   | 102 | 0   | <p align="center"><img width = "30" height= "20" src="./colors/grass.png" /></p>       |
+| gravel      | 112 | 103 | 87  | <p align="center"><img width = "30" height= "20" src="./colors/gravel.png" /></p>      |
+| water       | 28  | 42  | 168 | <p align="center"><img width = "30" height= "20" src="./colors/water.png" /></p>       |
+| rocks       | 48  | 41  | 30  | <p align="center"><img width = "30" height= "20" src="./colors/rocks.png" /></p>       |
+| pool        | 0   | 50  | 89  | <p align="center"><img width = "30" height= "20" src="./colors/pool.png" /></p>        |
+| vegetation  | 107 | 142 | 35  | <p align="center"><img width = "30" height= "20" src="./colors/vegetation.png" /></p>  |
+| roof        | 70  | 70  | 70  | <p align="center"><img width = "30" height= "20" src="./colors/roof.png" /></p>        |
+| window      | 254 | 228 | 12  | <p align="center"><img width = "30" height= "20" src="./colors/window.png" /></p>      |
+| door        | 254 | 148 | 12  | <p align="center"><img width = "30" height= "20" src="./colors/door.png" /></p>        |
+| fence       | 190 | 153 | 153 | <p align="center"><img width = "30" height= "20" src="./colors/fence.png" /></p>       |
+| fence-pole  | 153 | 153 | 153 | <p align="center"><img width = "30" height= "20" src="./colors/fence-pole.png" /></p>  |
+| person      | 255 | 22  | 0   | <p align="center"><img width = "30" height= "20" src="./colors/person.png" /></p>      |
+| dog         | 102 | 51  | 0   | <p align="center"><img width = "30" height= "20" src="./colors/dog.png" /></p>         |
+| car         | 9   | 143 | 150 | <p align="center"><img width = "30" height= "20" src="./colors/car.png" /></p>         |
+| bicycle     | 119 | 11  | 32  | <p align="center"><img width = "30" height= "20" src="./colors/bicycle.png" /></p>     |
+| tree        | 51  | 51  | 0   | <p align="center"><img width = "30" height= "20" src="./colors/tree.png" /></p>        |
+| bald-tree   | 190 | 250 | 190 | <p align="center"><img width = "30" height= "20" src="./colors/bald-tree.png" /></p>   |
+| ar-marker   | 112 | 150 | 146 | <p align="center"><img width = "30" height= "20" src="./colors/ar-marker.png" /></p>   |
+| obstacle    | 2   | 135 | 115 | <p align="center"><img width = "30" height= "20" src="./colors/obstacle.png" /></p>    |
+| conflicting | 255 | 0   | 0   | <p align="center"><img width = "30" height= "20" src="./colors/conflicting.png" /></p> |
 
 <br>
 
@@ -98,9 +127,9 @@ The images are labeled densely using polygons and contain the following 24 class
 
 ### Data Augmentation using Albumentations Library
 
-[Albumentations](https://albumentations.ai/) is a Python library for fast and flexible image augmentations. Albumentations efficiently implements a rich variety of image transform operations that are optimized for performance, and does so while providing a concise, yet powerful image augmentation interface for different computer vision tasks, including object classification, segmentation, and detection.
+<p align="justify"><a href="https://albumentations.ai/">Albumentations</a> is a Python library for fast and flexible image augmentations. Albumentations efficiently implements a rich variety of image transform operations that are optimized for performance, and does so while providing a concise, yet powerful image augmentation interface for different computer vision tasks, including object classification, segmentation, and detection.</p>
 
-There are only 400 images in the dataset, out of which I have used 320 images (80%) for training set and remaining 80 images (20%) for validation set. It is a relatively small amount of data, in order to artificially increase the amount of data and avoid overfitting, I preferred using data augmentation. By doing so I have increased the training data upto 5 times. So, the total number of images in the training set is 1600, and 80 images in the validation set, after data augmentation.
+<p align="justify">There are only 400 images in the dataset, out of which I have used 320 images (80%) for training set and remaining 80 images (20%) for validation set. It is a relatively small amount of data, in order to artificially increase the amount of data and avoid overfitting, I preferred using data augmentation. By doing so I have increased the training data upto 5 times. So, the total number of images in the training set is 1600, and 80 images in the validation set, after data augmentation.</p>
 
 Data augmentation is achieved through the following techniques:
 
@@ -115,46 +144,28 @@ Data augmentation is achieved through the following techniques:
 
 Here are some sample augmented images and masks of the dataset:
 
-<p align="center">
-<img width = "auto" height= "auto" src="./augmented_images/aug_image_092.png" />
-</p>
-<p align="center">
-<img width = "auto" height= "auto" src="./augmented_images/aug_mask_092.png" />
+<p align="center"><img width = "auto" height= "auto" src="./augmented_images/aug_image_092.png" /></p>
+<p align="center"><img width = "auto" height= "auto" src="./augmented_images/aug_mask_092.png" /></p>
+
+<br>
+
+<p align="center"><img width = "auto" height= "auto" src="./augmented_images/aug_image_118.png" /></p>
+<p align="center"><img width = "auto" height= "auto" src="./augmented_images/aug_mask_118.png" />
 </p>
 
 <br>
 
-<p align="center">
-<img width = "auto" height= "auto" src="./augmented_images/aug_image_118.png" />
-</p>
-
-<p align="center">
-<img width = "auto" height= "auto" src="./augmented_images/aug_mask_118.png" />
-</p>
+<p align="center"><img width = "auto" height= "auto" src="./augmented_images/aug_image_277.png" /></p>
+<p align="center"><img width = "auto" height= "auto" src="./augmented_images/aug_mask_277.png" /></p>
 
 <br>
 
-<p align="center">
-<img width = "auto" height= "auto" src="./augmented_images/aug_image_277.png" />
-</p>
-
-<p align="center">
-<img width = "auto" height= "auto" src="./augmented_images/aug_mask_277.png" />
-</p>
-
-<br>
-
-<p align="center">
-<img width = "auto" height= "auto" src="./augmented_images/aug_image_376.png" />
-</p>
-
-<p align="center">
-<img width = "auto" height= "auto" src="./augmented_images/aug_mask_376.png" />
-</p>
+<p align="center"><img width = "auto" height= "auto" src="./augmented_images/aug_image_376.png" /></p>
+<p align="center"><img width = "auto" height= "auto" src="./augmented_images/aug_mask_376.png" /></p>
 
 ### VGG-16 Encoder based UNet Model
 
-The [UNet](https://arxiv.org/abs/1505.04597) was developed by Olaf Ronneberger et al. for Bio Medical Image Segmentation. The architecture contains two paths. First path is the contraction path (also called as the encoder) which is used to capture the context in the image. The encoder is just a traditional stack of convolutional and max pooling layers. The second path is the symmetric expanding path (also called as the decoder) which is used to enable precise localization using transposed convolutions. Thus, it is an end-to-end fully convolutional network (FCN), i.e. it only contains Convolutional layers and does not contain any Dense layer because of which it can accept image of any size.
+<p align="justify">The <a href="https://arxiv.org/abs/1505.04597">UNet</a> was developed by Olaf Ronneberger et al. for Bio Medical Image Segmentation. The architecture contains two paths. First path is the contraction path (also called as the encoder) which is used to capture the context in the image. The encoder is just a traditional stack of convolutional and max pooling layers. The second path is the symmetric expanding path (also called as the decoder) which is used to enable precise localization using transposed convolutions. Thus, it is an end-to-end fully convolutional network (FCN), i.e. it only contains Convolutional layers and does not contain any Dense layer because of which it can accept image of any size.</p>
 
 In the original paper, the UNet is described as follows:
 
@@ -190,7 +201,7 @@ A detailed layout of the model is available [here](./vgg16_unet_plot.png).
 
 <br><p align="center"><img width = "auto" height= "auto" src="./model_metrics_plot.png" /></p>
 
-The `model_training_csv.log` file contain epoch wise training details of the model.
+The [`model_training_csv.log`]("https://github.com/ayushdabra/drone-images-semantic-segmentation/blob/main/model_training_csv.log") file contain epoch wise training details of the model.
 
 ### Visual Results
 
@@ -207,7 +218,7 @@ Predictions on Validation Set Images:
 <p align="center"><img width = "auto" height= "auto" src="./predictions/prediction_69.png" /></p>
 <p align="center"><img width = "auto" height= "auto" src="./predictions/prediction_73.png" /></p>
 
-All predictions on the validation set are available in the [`predictions`]("./predictions") directory.
+All predictions on the validation set are available in the [`predictions`]("https://github.com/ayushdabra/drone-images-semantic-segmentation/tree/main/predictions") directory.
 
 ## Activations (Outputs) Visualization
 
@@ -218,7 +229,7 @@ Activations/Outputs of some layers of the model-
 | <p align="center"><img width = "auto" height= "auto" src="./activations/edited/8_conv2d.png" />conv2d</p>                | <p align="center"><img width = "auto" height= "auto" src="./activations/edited/10_conv2d_transpose_1.png" />conv2d_transpose_1</p> | <p align="center"><img width = "auto" height= "auto" src="./activations/edited/13_conv2d_3.png" />conv2d_3</p>                | <p align="center"><img width = "auto" height= "auto" src="./activations/edited/14_conv2d_transpose_2.png" />conv2d_transpose_2</p> |
 | <p align="center"><img width = "auto" height= "auto" src="./activations/edited/15_concatenate_2.png" />concatenate_2</p> | <p align="center"><img width = "auto" height= "auto" src="./activations/edited/17_conv2d_5.png" />conv2d_5</p>                     | <p align="center"><img width = "auto" height= "auto" src="./activations/edited/21_conv2d_7.png" />conv2d_7</p>                | <p align="center"><img width = "auto" height= "auto" src="./activations/edited/22_conv2d_8.png" />conv2d_8</p>                     |
 
-Some more activation maps are available in the [`activations`]("./activations/) directory.
+Some more activation maps are available in the [`activations`]("https://github.com/ayushdabra/drone-images-semantic-segmentation/tree/main/activations) directory.
 
 ## References
 
