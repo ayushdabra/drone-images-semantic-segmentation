@@ -199,7 +199,7 @@ A detailed layout of the model is available [here]("https://github.com/ayushdabr
 | :--------: | :----------------------------------------: | :--------------------: | :--------: | :------------------: | :------: | :---------------: | :---------: |
 | VGG16-UNet | 20 (best weights at 18<sup>th</sup> epoch) |         0.8781         |   0.2599   |        0.8702        | 0.29959  |      0.0001       | 0.000014125 |
 
-<br><p align="center"><img width = "auto" height= "auto" src="./model_metrics_plot.png" /></p>
+<p align="center"><img width = "auto" height= "auto" src="./model_metrics_plot.png" /></p>
 
 The <a href="https://github.com/ayushdabra/drone-images-semantic-segmentation/blob/main/model_training_csv.log">`model_training_csv.log`</a> file contain epoch wise training details of the model.
 
