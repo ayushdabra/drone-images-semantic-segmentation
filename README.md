@@ -98,6 +98,7 @@ The images are labeled densely using polygons and contain the following 24 class
 | pool        | 0   | 50  | 89  | <p align="center"><img width = "30" height= "20" src="./colors/pool.png" /></p>        |
 | vegetation  | 107 | 142 | 35  | <p align="center"><img width = "30" height= "20" src="./colors/vegetation.png" /></p>  |
 | roof        | 70  | 70  | 70  | <p align="center"><img width = "30" height= "20" src="./colors/roof.png" /></p>        |
+| wall        | 102 | 102 | 156 | <p align="center"><img width = "30" height= "20" src="./colors/wall.png" /></p>        |
 | window      | 254 | 228 | 12  | <p align="center"><img width = "30" height= "20" src="./colors/window.png" /></p>      |
 | door        | 254 | 148 | 12  | <p align="center"><img width = "30" height= "20" src="./colors/door.png" /></p>        |
 | fence       | 190 | 153 | 153 | <p align="center"><img width = "30" height= "20" src="./colors/fence.png" /></p>       |
