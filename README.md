@@ -1,4 +1,4 @@
-# Multiclass Semantic Segmentation for Drone (Aerial) Images
+# Multiclass Semantic Segmentation of Aerial Drone Images Using Deep Learning
 
 ## Abstract
 
