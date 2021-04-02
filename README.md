@@ -34,7 +34,7 @@ Semantic segmentation is different from instance segmentation which is that diff
     <p align="justify">Autonomous vehicles such as self-driving cars and drones can benefit from automated segmentation. For example, self-driving cars can detect drivable regions.</p>
 
     <p align="center"> 
-    <img  width="800" height="430" src="https://divamgupta.com/assets/images/posts/imgseg/image10.png?style=centerme" /> 
+    <img  width="600" height="323" src="https://divamgupta.com/assets/images/posts/imgseg/image10.png?style=centerme" /> 
     </p>
 
 3.  **Satellite Image Analysis**
@@ -42,7 +42,7 @@ Semantic segmentation is different from instance segmentation which is that diff
     <p align="justify">Aerial images can be used to segment different types of land. Automated land mapping can also be done.</p>
 
     <p align="center"> 
-    <img  width="800" height="400" src="https://www.spiedigitallibrary.org/ContentImages/Journals/JARSC4/12/4/042804/FigureImages/JARS_12_4_042804_f003.png" /> 
+    <img  width="600" height="200" src="https://www.spiedigitallibrary.org/ContentImages/Journals/JARSC4/12/4/042804/FigureImages/JARS_12_4_042804_f003.png" /> 
     </p>
 
 ## Semantic Drone Dataset
@@ -50,7 +50,7 @@ Semantic segmentation is different from instance segmentation which is that diff
 <p align="justify">The <a href="http://dronedataset.icg.tugraz.at/">Semantic Drone Dataset</a> focuses on semantic understanding of urban scenes for increasing the safety of autonomous drone flight and landing procedures. The imagery depicts more than 20 houses from nadir (bird's eye) view acquired at an altitude of 5 to 30 meters above ground. A high resolution camera was used to acquire images at a size of 6000x4000px (24Mpx). The training set contains 400 publicly available images and the test set is made up of 200 private images.</p>
 
 <p align="center">
-  <img width="674" height="475" src="https://www.tugraz.at/fileadmin/_migrated/pics/fyler3.png" />
+  <img width="600" height="423" src="https://www.tugraz.at/fileadmin/_migrated/pics/fyler3.png" />
 </p>
 
 <br>
