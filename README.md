@@ -181,7 +181,7 @@ In the original paper, the UNet is described as follows:
 - VGG16 model pre-trained on the ImageNet dataset has been used as an Encoder network.
 - A Decoder network has been extended from the last layer of the pre-trained model, and it is concatenated to the consecutive convolution blocks.
 
-A detailed layout of the model is available [here]("https://github.com/ayushdabra/drone-images-semantic-segmentation/blob/main/vgg16_unet_plot.png").
+A detailed layout of the model is available [here](./vgg16_unet_plot.png).
 
 ## Hyper-Parameters
 
