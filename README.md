@@ -86,32 +86,32 @@ The images are labeled densely using polygons and contain the following 24 class
 | obstacle    | 2   | 135 | 115 | <svg width="30" height="20"><rect width="30" height="20" style="fill:rgb(2,135,115)" /></svg>   |
 | conflicting | 255 | 0   | 0   | <svg width="30" height="20"><rect width="30" height="20" style="fill:rgb(255,0,0)" /></svg>     | -->
 
-| Name        | R   | G   | B   | Color                                                                                  |
-| ----------- | --- | --- | --- | -------------------------------------------------------------------------------------- |
-| unlabeled   | 0   | 0   | 0   | <p align="center"><img width = "30" height= "20" src="./colors/unlabeled.png" /></p>   |
-| paved-area  | 128 | 64  | 128 | <p align="center"><img width = "30" height= "20" src="./colors/paved-area.png" /></p>  |
-| dirt        | 130 | 76  | 0   | <p align="center"><img width = "30" height= "20" src="./colors/dirt.png" /></p>        |
-| grass       | 0   | 102 | 0   | <p align="center"><img width = "30" height= "20" src="./colors/grass.png" /></p>       |
-| gravel      | 112 | 103 | 87  | <p align="center"><img width = "30" height= "20" src="./colors/gravel.png" /></p>      |
-| water       | 28  | 42  | 168 | <p align="center"><img width = "30" height= "20" src="./colors/water.png" /></p>       |
-| rocks       | 48  | 41  | 30  | <p align="center"><img width = "30" height= "20" src="./colors/rocks.png" /></p>       |
-| pool        | 0   | 50  | 89  | <p align="center"><img width = "30" height= "20" src="./colors/pool.png" /></p>        |
-| vegetation  | 107 | 142 | 35  | <p align="center"><img width = "30" height= "20" src="./colors/vegetation.png" /></p>  |
-| roof        | 70  | 70  | 70  | <p align="center"><img width = "30" height= "20" src="./colors/roof.png" /></p>        |
-| wall        | 102 | 102 | 156 | <p align="center"><img width = "30" height= "20" src="./colors/wall.png" /></p>        |
-| window      | 254 | 228 | 12  | <p align="center"><img width = "30" height= "20" src="./colors/window.png" /></p>      |
-| door        | 254 | 148 | 12  | <p align="center"><img width = "30" height= "20" src="./colors/door.png" /></p>        |
-| fence       | 190 | 153 | 153 | <p align="center"><img width = "30" height= "20" src="./colors/fence.png" /></p>       |
-| fence-pole  | 153 | 153 | 153 | <p align="center"><img width = "30" height= "20" src="./colors/fence-pole.png" /></p>  |
-| person      | 255 | 22  | 0   | <p align="center"><img width = "30" height= "20" src="./colors/person.png" /></p>      |
-| dog         | 102 | 51  | 0   | <p align="center"><img width = "30" height= "20" src="./colors/dog.png" /></p>         |
-| car         | 9   | 143 | 150 | <p align="center"><img width = "30" height= "20" src="./colors/car.png" /></p>         |
-| bicycle     | 119 | 11  | 32  | <p align="center"><img width = "30" height= "20" src="./colors/bicycle.png" /></p>     |
-| tree        | 51  | 51  | 0   | <p align="center"><img width = "30" height= "20" src="./colors/tree.png" /></p>        |
-| bald-tree   | 190 | 250 | 190 | <p align="center"><img width = "30" height= "20" src="./colors/bald-tree.png" /></p>   |
-| ar-marker   | 112 | 150 | 146 | <p align="center"><img width = "30" height= "20" src="./colors/ar-marker.png" /></p>   |
-| obstacle    | 2   | 135 | 115 | <p align="center"><img width = "30" height= "20" src="./colors/obstacle.png" /></p>    |
-| conflicting | 255 | 0   | 0   | <p align="center"><img width = "30" height= "20" src="./colors/conflicting.png" /></p> |
+| Name        | R   | G   | B   | Color                                                                                        |
+| ----------- | --- | --- | --- | -------------------------------------------------------------------------------------------- |
+| unlabeled   | 0   | 0   | 0   | <p align="center"><img width = "30" height= "20" src="./label_colors/unlabeled.png" /></p>   |
+| paved-area  | 128 | 64  | 128 | <p align="center"><img width = "30" height= "20" src="./label_colors/paved-area.png" /></p>  |
+| dirt        | 130 | 76  | 0   | <p align="center"><img width = "30" height= "20" src="./label_colors/dirt.png" /></p>        |
+| grass       | 0   | 102 | 0   | <p align="center"><img width = "30" height= "20" src="./label_colors/grass.png" /></p>       |
+| gravel      | 112 | 103 | 87  | <p align="center"><img width = "30" height= "20" src="./label_colors/gravel.png" /></p>      |
+| water       | 28  | 42  | 168 | <p align="center"><img width = "30" height= "20" src="./label_colors/water.png" /></p>       |
+| rocks       | 48  | 41  | 30  | <p align="center"><img width = "30" height= "20" src="./label_colors/rocks.png" /></p>       |
+| pool        | 0   | 50  | 89  | <p align="center"><img width = "30" height= "20" src="./label_colors/pool.png" /></p>        |
+| vegetation  | 107 | 142 | 35  | <p align="center"><img width = "30" height= "20" src="./label_colors/vegetation.png" /></p>  |
+| roof        | 70  | 70  | 70  | <p align="center"><img width = "30" height= "20" src="./label_colors/roof.png" /></p>        |
+| wall        | 102 | 102 | 156 | <p align="center"><img width = "30" height= "20" src="./label_colors/wall.png" /></p>        |
+| window      | 254 | 228 | 12  | <p align="center"><img width = "30" height= "20" src="./label_colors/window.png" /></p>      |
+| door        | 254 | 148 | 12  | <p align="center"><img width = "30" height= "20" src="./label_colors/door.png" /></p>        |
+| fence       | 190 | 153 | 153 | <p align="center"><img width = "30" height= "20" src="./label_colors/fence.png" /></p>       |
+| fence-pole  | 153 | 153 | 153 | <p align="center"><img width = "30" height= "20" src="./label_colors/fence-pole.png" /></p>  |
+| person      | 255 | 22  | 0   | <p align="center"><img width = "30" height= "20" src="./label_colors/person.png" /></p>      |
+| dog         | 102 | 51  | 0   | <p align="center"><img width = "30" height= "20" src="./label_colors/dog.png" /></p>         |
+| car         | 9   | 143 | 150 | <p align="center"><img width = "30" height= "20" src="./label_colors/car.png" /></p>         |
+| bicycle     | 119 | 11  | 32  | <p align="center"><img width = "30" height= "20" src="./label_colors/bicycle.png" /></p>     |
+| tree        | 51  | 51  | 0   | <p align="center"><img width = "30" height= "20" src="./label_colors/tree.png" /></p>        |
+| bald-tree   | 190 | 250 | 190 | <p align="center"><img width = "30" height= "20" src="./label_colors/bald-tree.png" /></p>   |
+| ar-marker   | 112 | 150 | 146 | <p align="center"><img width = "30" height= "20" src="./label_colors/ar-marker.png" /></p>   |
+| obstacle    | 2   | 135 | 115 | <p align="center"><img width = "30" height= "20" src="./label_colors/obstacle.png" /></p>    |
+| conflicting | 255 | 0   | 0   | <p align="center"><img width = "30" height= "20" src="./label_colors/conflicting.png" /></p> |
 
 <br>
 
@@ -119,10 +119,10 @@ The images are labeled densely using polygons and contain the following 24 class
 
 <br>
 
-<p align="center"><img width = "95%" height= "auto" src="./sample_images/image_002.png" /></p>
-<p align="center"><img width = "95%" height= "auto" src="./sample_images/image_001.png" /></p>
-<p align="center"><img width = "95%" height= "auto" src="./sample_images/image_004.png" /></p>
-<p align="center"><img width = "95%" height= "auto" src="./sample_images/image_003.png" /></p>
+<p align="center"><img width = "95%" height= "auto" src="./sample_images/image_002.jpg" /></p>
+<p align="center"><img width = "95%" height= "auto" src="./sample_images/image_001.jpg" /></p>
+<p align="center"><img width = "95%" height= "auto" src="./sample_images/image_004.jpg" /></p>
+<p align="center"><img width = "95%" height= "auto" src="./sample_images/image_003.jpg" /></p>
 
 ## Technical Approach
 
@@ -145,24 +145,23 @@ Data augmentation is achieved through the following techniques:
 
 Here are some sample augmented images and masks of the dataset:
 
-<p align="center"><img width = "auto" height= "auto" src="./augmented_images/aug_image_092.png" /></p>
-<p align="center"><img width = "auto" height= "auto" src="./augmented_images/aug_mask_092.png" /></p>
+<p align="center"><img width = "auto" height= "auto" src="./augmented_images/aug_image_376.jpg" /></p>
+<p align="center"><img width = "auto" height= "auto" src="./augmented_images/aug_mask_376.png" /></p>
 
 <br>
 
-<p align="center"><img width = "auto" height= "auto" src="./augmented_images/aug_image_118.png" /></p>
-<p align="center"><img width = "auto" height= "auto" src="./augmented_images/aug_mask_118.png" />
-</p>
-
-<br>
-
-<p align="center"><img width = "auto" height= "auto" src="./augmented_images/aug_image_277.png" /></p>
+<p align="center"><img width = "auto" height= "auto" src="./augmented_images/aug_image_277.jpg" /></p>
 <p align="center"><img width = "auto" height= "auto" src="./augmented_images/aug_mask_277.png" /></p>
 
 <br>
 
-<p align="center"><img width = "auto" height= "auto" src="./augmented_images/aug_image_376.png" /></p>
-<p align="center"><img width = "auto" height= "auto" src="./augmented_images/aug_mask_376.png" /></p>
+<p align="center"><img width = "auto" height= "auto" src="./augmented_images/aug_image_118.jpg" /></p>
+<p align="center"><img width = "auto" height= "auto" src="./augmented_images/aug_mask_118.png" /></p>
+
+<br>
+
+<p align="center"><img width = "auto" height= "auto" src="./augmented_images/aug_image_092.jpg" /></p>
+<p align="center"><img width = "auto" height= "auto" src="./augmented_images/aug_mask_092.png" /></p>
 
 ### VGG-16 Encoder based UNet Model
 
@@ -183,7 +182,7 @@ In the original paper, the UNet is described as follows:
 
 A detailed layout of the model is available [here](./vgg16_unet_plot.png).
 
-## Hyper-Parameters
+### Hyper-Parameters
 
 1. Batch Size = 8
 2. Steps per Epoch = 200.0
@@ -196,9 +195,9 @@ A detailed layout of the model is available [here](./vgg16_unet_plot.png).
 
 ### Training Results
 
-|   Model    |                   Epochs                   | Train Dice Coefficient | Train Loss | Val Dice Coefficient | Val Loss | Max. (Initial) LR |   Min. LR   |
-| :--------: | :----------------------------------------: | :--------------------: | :--------: | :------------------: | :------: | :---------------: | :---------: |
-| VGG16-UNet | 20 (best weights at 18<sup>th</sup> epoch) |         0.8781         |   0.2599   |        0.8702        | 0.29959  |      0.0001       | 0.000014125 |
+|   Model    |                   Epochs                   | Train Dice Coefficient | Train Loss | Val Dice Coefficient | Val Loss |    Max. (Initial) LR    |         Min. LR         | Total Training Time |
+| :--------: | :----------------------------------------: | :--------------------: | :--------: | :------------------: | :------: | :---------------------: | :---------------------: | :-----------------: |
+| VGG16-UNet | 20 (best weights at 18<sup>th</sup> epoch) |         0.8781         |   0.2599   |        0.8702        | 0.29959  | 1.000 × 10<sup>-4</sup> | 1.122 × 10<sup>-5</sup> | 23569 s (06:32:49)  |
 
 <p align="center"><img width = "auto" height= "auto" src="./model_metrics_plot.png" /></p>
 
@@ -208,16 +207,16 @@ The <a href="https://github.com/ayushdabra/drone-images-semantic-segmentation/bl
 
 Predictions on Validation Set Images:
 
-<p align="center"><img width = "auto" height= "auto" src="./predictions/prediction_21.png" /></p>
-<p align="center"><img width = "auto" height= "auto" src="./predictions/prediction_23.png" /></p>
-<p align="center"><img width = "auto" height= "auto" src="./predictions/prediction_49.png" /></p>
-<p align="center"><img width = "auto" height= "auto" src="./predictions/prediction_24.png" /></p>
-<p align="center"><img width = "auto" height= "auto" src="./predictions/prediction_58.png" /></p>
-<p align="center"><img width = "auto" height= "auto" src="./predictions/prediction_28.png" /></p>
-<p align="center"><img width = "auto" height= "auto" src="./predictions/prediction_55.png" /></p>
-<p align="center"><img width = "auto" height= "auto" src="./predictions/prediction_60.png" /></p>
-<p align="center"><img width = "auto" height= "auto" src="./predictions/prediction_69.png" /></p>
-<p align="center"><img width = "auto" height= "auto" src="./predictions/prediction_73.png" /></p>
+<p align="center"><img width = "auto" height= "auto" src="./predictions/compressed/prediction_21.jpg" /></p>
+<p align="center"><img width = "auto" height= "auto" src="./predictions/compressed/prediction_23.jpg" /></p>
+<p align="center"><img width = "auto" height= "auto" src="./predictions/compressed/prediction_49.jpg" /></p>
+<p align="center"><img width = "auto" height= "auto" src="./predictions/compressed/prediction_24.jpg" /></p>
+<p align="center"><img width = "auto" height= "auto" src="./predictions/compressed/prediction_58.jpg" /></p>
+<p align="center"><img width = "auto" height= "auto" src="./predictions/compressed/prediction_28.jpg" /></p>
+<p align="center"><img width = "auto" height= "auto" src="./predictions/compressed/prediction_55.jpg" /></p>
+<p align="center"><img width = "auto" height= "auto" src="./predictions/compressed/prediction_60.jpg" /></p>
+<p align="center"><img width = "auto" height= "auto" src="./predictions/compressed/prediction_69.jpg" /></p>
+<p align="center"><img width = "auto" height= "auto" src="./predictions/compressed/prediction_73.jpg" /></p>
 
 All predictions on the validation set are available in the <a href="https://github.com/ayushdabra/drone-images-semantic-segmentation/tree/main/predictions">`predictions`</a> directory.
 
@@ -225,10 +224,10 @@ All predictions on the validation set are available in the <a href="https://gith
 
 Activations/Outputs of some layers of the model-
 
-| <p align="center"><img width = "auto" height= "auto" src="./activations/edited/1_block1_conv1.png" /><b>block1_conv1</b></p>    | <p align="center"><img width = "auto" height= "auto" src="./activations/edited/4_block4_conv1.png" /><b>block4_conv1</b></p>              | <p align="center"><img width = "auto" height= "auto" src="./activations/edited/6_conv2d_transpose.png" /><b>conv2d_transpose</b></p> | <p align="center"><img width = "auto" height= "auto" src="./activations/edited/7_concatenate.png" /><b>concatenate</b></p>                |
-| ------------------------------------------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------- |
-| <p align="center"><img width = "auto" height= "auto" src="./activations/edited/8_conv2d.png" /><b>conv2d</b></p>                | <p align="center"><img width = "auto" height= "auto" src="./activations/edited/10_conv2d_transpose_1.png" /><b>conv2d_transpose_1</b></p> | <p align="center"><img width = "auto" height= "auto" src="./activations/edited/13_conv2d_3.png" /><b>conv2d_3</b></p>                | <p align="center"><img width = "auto" height= "auto" src="./activations/edited/14_conv2d_transpose_2.png" /><b>conv2d_transpose_2</b></p> |
-| <p align="center"><img width = "auto" height= "auto" src="./activations/edited/15_concatenate_2.png" /><b>concatenate_2</b></p> | <p align="center"><img width = "auto" height= "auto" src="./activations/edited/17_conv2d_5.png" /><b>conv2d_5</b></p>                     | <p align="center"><img width = "auto" height= "auto" src="./activations/edited/21_conv2d_7.png" /><b>conv2d_7</b></p>                | <p align="center"><img width = "auto" height= "auto" src="./activations/edited/22_conv2d_8.png" /><b>conv2d_8</b></p>                     |
+| <p align="center"><img width = "auto" height= "auto" src="./activations/compressed/1_block1_conv1.png" /><b>block1_conv1</b></p>    | <p align="center"><img width = "auto" height= "auto" src="./activations/compressed/4_block4_conv1.png" /><b>block4_conv1</b></p>              | <p align="center"><img width = "auto" height= "auto" src="./activations/compressed/6_conv2d_transpose.png" /><b>conv2d_transpose</b></p> | <p align="center"><img width = "auto" height= "auto" src="./activations/compressed/7_concatenate.png" /><b>concatenate</b></p>                |
+| ----------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------- |
+| <p align="center"><img width = "auto" height= "auto" src="./activations/compressed/8_conv2d.png" /><b>conv2d</b></p>                | <p align="center"><img width = "auto" height= "auto" src="./activations/compressed/10_conv2d_transpose_1.png" /><b>conv2d_transpose_1</b></p> | <p align="center"><img width = "auto" height= "auto" src="./activations/compressed/13_conv2d_3.png" /><b>conv2d_3</b></p>                | <p align="center"><img width = "auto" height= "auto" src="./activations/compressed/14_conv2d_transpose_2.png" /><b>conv2d_transpose_2</b></p> |
+| <p align="center"><img width = "auto" height= "auto" src="./activations/compressed/15_concatenate_2.png" /><b>concatenate_2</b></p> | <p align="center"><img width = "auto" height= "auto" src="./activations/compressed/17_conv2d_5.png" /><b>conv2d_5</b></p>                     | <p align="center"><img width = "auto" height= "auto" src="./activations/compressed/21_conv2d_7.png" /><b>conv2d_7</b></p>                | <p align="center"><img width = "auto" height= "auto" src="./activations/compressed/22_conv2d_8.png" /><b>conv2d_8</b></p>                     |
 
 Some more activation maps are available in the <a href="https://github.com/ayushdabra/drone-images-semantic-segmentation/tree/main/activations">`activations`</a> directory.
 
