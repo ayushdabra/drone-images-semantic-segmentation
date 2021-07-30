@@ -5,6 +5,16 @@
 <p align="justify">
 Semantic segmentation is the task of clustering parts of an image together which belong to the same object class. It is a form of pixel-level prediction because each pixel in an image is classified according to a category. In this project, I have performed semantic segmentation on <a href="http://dronedataset.icg.tugraz.at/">Semantic Drone Dataset</a> by using transfer learning on a VGG-16 backbone (trained on ImageNet) based UNet CNN model. In order to artificially increase the amount of data and avoid overfitting, I preferred using data augmentation on the training set. The model performed well, and achieved ~87% dice coefficient on the validation set.</p>
 
+## Tech Stack
+
+|<a href="https://www.python.org/"><p align="center"><img width = "auto" height= "auto" src="./tech_stack/python.png" /></p></a>|<a href="https://jupyter.org/"><p align="center"><img width = "auto" height= "auto" src="./tech_stack/jupyter.png" /></p></a>|<a href="https://ipython.org/"><p align="center"><img width = "auto" height= "auto" src="./tech_stack/IPython.png" /></p></a>|<a href="https://numpy.org/"><p align="center"><img width = "auto" height= "auto" src="./tech_stack/numpy.png" /></p></a>|<a href="https://pandas.pydata.org/"><p align="center"><img width = "auto" height= "auto" src="./tech_stack/pandas.png" /></p></a>|
+|---|---|---|---|---|
+
+|<a href="https://matplotlib.org/"><p align="center"><img width = "auto" height= "auto" src="./tech_stack/matplotlib.png" /></p></a>|<a href="https://opencv.org/"><p align="center"><img width = "auto" height= "auto" src="./tech_stack/opencv.png" /></p></a>|<a href="https://albumentations.ai/"><p align="center"><img width = "auto" height= "auto" src="./tech_stack/albumentations.png" /></p></a>|<a href="https://keras.io/"><p align="center"><img width = "auto" height= "auto" src="./tech_stack/keras.png" /></p></a>|<a href="https://www.tensorflow.org/"><p align="center"><img width = "auto" height= "auto" src="./tech_stack/tensorflow.png" /></p></a>|<a href="https://github.com/philipperemy/keract"><p align="center"><img width = "auto" height= "auto" src="./tech_stack/keract.png" /></p></a>|
+|---|---|---|---|---|---|
+
+The Jupyter Notebook can be accessed from <a href="./semantic-drone-dataset-vgg16-unet.ipynb">here</a>.
+
 ## What is Semantic Segmentation?
 
 <p align="justify">
@@ -21,7 +31,7 @@ Semantic segmentation is different from instance segmentation which is that diff
 <img src="https://s3-ap-south-1.amazonaws.com/av-blog-media/wp-content/uploads/2019/03/Screenshot-from-2019-03-28-12-08-09.png" />
 </p>
 
-## Applications
+<!-- ## Applications
 
 1.  **Medical Images**
 
@@ -43,7 +53,7 @@ Semantic segmentation is different from instance segmentation which is that diff
 
     <p align="center"> 
     <img  width="600" height="200" src="https://www.spiedigitallibrary.org/ContentImages/Journals/JARSC4/12/4/042804/FigureImages/JARS_12_4_042804_f003.png" /> 
-    </p>
+    </p> -->
 
 ## Semantic Drone Dataset
 
