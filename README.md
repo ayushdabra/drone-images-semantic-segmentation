@@ -192,7 +192,7 @@ In the original paper, the UNet is described as follows:
 - A Decoder network has been extended from the last layer of the pre-trained model, and it is concatenated to the consecutive convolution blocks.
 
 <p align="center">
-<img width = "70%" height= "auto" src="./vgg16_unet.png" />
+<img width = "90%" height= "auto" src="./vgg16_unet.png" />
 </p>
 <p align="center"><i>VGG16 Encoder based UNet CNN Architecture</i></p>
 
