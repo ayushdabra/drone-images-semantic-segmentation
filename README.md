@@ -1,3 +1,7 @@
+<a href="https://colab.research.google.com/drive/1J-PQgIJWOCb7hoc4eiOCna1gUf0cnMCW">
+  <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
+</a>
+
 # Multiclass Semantic Segmentation of Aerial Drone Images Using Deep Learning
 
 ## Abstract
@@ -123,11 +127,7 @@ The images are labeled densely using polygons and contain the following 24 class
 | obstacle    | 2   | 135 | 115 | <p align="center"><img width = "30" height= "20" src="./label_colors/obstacle.png" /></p>    |
 | conflicting | 255 | 0   | 0   | <p align="center"><img width = "30" height= "20" src="./label_colors/conflicting.png" /></p> |
 
-<br>
-
 ### Sample Images
-
-<br>
 
 <p align="center"><img width = "95%" height= "auto" src="./sample_images/image_002.jpg" /></p>
 <p align="center"><img width = "95%" height= "auto" src="./sample_images/image_001.jpg" /></p>
@@ -188,7 +188,13 @@ In the original paper, the UNet is described as follows:
 #### Custom VGG16-UNet Architecture
 
 - VGG16 model pre-trained on the ImageNet dataset has been used as an Encoder network.
+
 - A Decoder network has been extended from the last layer of the pre-trained model, and it is concatenated to the consecutive convolution blocks.
+
+<p align="center">
+<img width = "70%" height= "auto" src="./vgg16_unet.png" />
+</p>
+<p align="center"><i>VGG16 Encoder based UNet CNN Architecture</i></p>
 
 A detailed layout of the model is available [here](./vgg16_unet_plot.png).
 
