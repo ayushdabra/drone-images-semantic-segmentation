@@ -1,6 +1,12 @@
-<a href="https://colab.research.google.com/drive/1J-PQgIJWOCb7hoc4eiOCna1gUf0cnMCW">
-  <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
-</a>
+<p>
+  <a href="https://colab.research.google.com/drive/1J-PQgIJWOCb7hoc4eiOCna1gUf0cnMCW">
+    <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
+  </a>
+
+  <a href="https://mybinder.org/v2/gh/ayushdabra/drone-images-semantic-segmentation/HEAD">
+    <img src="https://mybinder.org/badge_logo.svg" alt="launch binder"/>
+  </a>
+</p>
 
 # Multiclass Semantic Segmentation of Aerial Drone Images Using Deep Learning
 
